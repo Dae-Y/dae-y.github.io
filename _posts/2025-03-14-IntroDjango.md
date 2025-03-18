@@ -12,7 +12,7 @@ sidebar:
 <div class="notice--success">
 <h4>Please have a read.</h4>
 <ul>
-	<li>[Welcome!](https://dae-y.github.io/notice/first/)</li>
+    <li><a href="https://dae-y.github.io/notice/first/">Welcome!</a></li>
 </ul>
 </div>
 
