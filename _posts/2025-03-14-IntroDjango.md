@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Introduction to Django"
-category: Technology
+category: web
 tag: [Web, Django]
 toc: true
 author_profile: false
