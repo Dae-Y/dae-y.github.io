@@ -10,10 +10,10 @@ sidebar:
 ---
 
 <div class="notice--success">
-<h4>Please have a read</h4>
+<h4>Please have a read.</h4>
 <ul>
 	<li>[Welcome!](https://dae-y.github.io/notice/first/)</li>
-<ul>
+</ul>
 </div>
 
 A summary of Web App Frameworks COMP3011 lecture 1
