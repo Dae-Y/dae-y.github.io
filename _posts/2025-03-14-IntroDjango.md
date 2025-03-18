@@ -9,6 +9,13 @@ sidebar:
     nav: "docs"
 ---
 
+<div class="notice--success">
+<h4>Please have a read</h4>
+<ul>
+	<li>[Welcome!](https://dae-y.github.io/notice/first/)</li>
+<ul>
+</div>
+
 A summary of Web App Frameworks COMP3011 lecture 1
 
 ## What is a Framework?  
