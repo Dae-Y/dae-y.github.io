@@ -9,13 +9,10 @@ sidebar:
     nav: "docs"
 ---
 
-<div class="notice--success">
-<h4>Please have a read.</h4>
-<ul>
-    <li><a href="https://dae-y.github.io/notice/first/">Welcome!</a></li>
-</ul>
-</div>
+**[Notice]** [Welcome!](https://dae-y.github.io/notice/first_post/)
+{: .notice--success}
 
+# Introduction to Django
 A summary of Web App Frameworks COMP3011 lecture 1
 
 ## What is a Framework?  

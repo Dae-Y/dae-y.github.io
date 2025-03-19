@@ -9,14 +9,10 @@ sidebar:
     nav: "docs"
 ---
 
-<div class="notice--success">
-<h4>Please have a read.</h4>
-<ul>
-    <li><a href="https://dae-y.github.io/notice/first/">Welcome!</a></li>
-</ul>
-</div>
+**[Notice]** [Welcome!](https://dae-y.github.io/notice/first_post/)
+{: .notice--success}
 
-Insights from Geoffrey Hinton on the Future of AI
+# Insights from Geoffrey Hinton on the Future of AI
 
 {% include video id="SN-BISKo2lE" provider="youtube" %}
 
