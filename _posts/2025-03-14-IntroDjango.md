@@ -3,17 +3,8 @@ layout: single
 title:  "Introduction to Django"
 category: web
 tag: [Web, Django]
-toc: true
 author_profile: false
-sidebar:
-    nav: "docs"
 ---
-
-# Introduction to Django
-
-<div class="notice--success">
-📢 <strong>Notice:</strong> <a href="https://dae-y.github.io/notice/first_post/">Welcome!</a>
-</div>
 
 A summary of Web App Frameworks COMP3011 lecture 1
 
