@@ -3,7 +3,6 @@ layout: single
 title:  "Welcome to Dae's Blog"
 category: notice
 tag: notice
-toc: true
 author_profile: false
 search: false
 sidebar:

@@ -3,14 +3,8 @@ layout: single
 title:  "Summary of Geoffrey Hinton's interview"
 category: technology
 tag: [ML, AI, Youtube, Interview]
-toc: true
 author_profile: false
-sidebar:
-    nav: "docs"
 ---
-
-**[Notice]** [Welcome!](https://dae-y.github.io/notice/first_post/)
-{: .notice--success}
 
 # Insights from Geoffrey Hinton on the Future of AI
 
