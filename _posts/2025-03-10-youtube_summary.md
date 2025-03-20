@@ -8,7 +8,7 @@ sidebar:
     nav: "counts"
 ---
 
-# Insights from Geoffrey Hinton on the Future of AI
+Insights from Geoffrey Hinton on the Future of AI
 
 {% include video id="SN-BISKo2lE" provider="youtube" %}
 

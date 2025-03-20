@@ -8,7 +8,7 @@ sidebar:
     nav: "counts"
 ---
 
-A summary of Web App Frameworks COMP3011 lecture 1
+A summary of COMP3011 Web App Frameworks lecture 1
 
 ## What is a Framework?  
 A framework is a foundational structure that simplifies and standardizes the development process.  
