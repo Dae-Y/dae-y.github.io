@@ -10,7 +10,8 @@ sidebar:
 ---
 
 Welcome to my personal blog, proudly hosted on **GitHub Pages**.  
-A special thanks to the author of **Minimal Mistakes**, whose theme—powered by **Ruby** and **Jekyll**—makes creating a static website both simple and enjoyable.  
+A special thanks to the author of **Minimal Mistakes**, <br>
+whose theme—powered by **Ruby** and **Jekyll**—makes creating a static website both simple and enjoyable.  
 
 I'd also like to acknowledge the helpful resources found in this [YouTube video](https://www.youtube.com/watch?v=ACzFIAOsfpM).  
 
@@ -29,5 +30,5 @@ This blog is a *non-profit project*—its primary purpose is:
 
 ---
 
-Thank you for visiting! 😊  
-Feel free to explore and enjoy!
+Thank you for visiting😊  
+Feel free to explore and enjoy!❤️

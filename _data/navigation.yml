@@ -32,7 +32,7 @@ counts:
     - title: "Category"
       use: true
     - title: "Tag"
-      use: true
+      use: false
 
 
 
