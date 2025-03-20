@@ -4,6 +4,8 @@ title:  "Introduction to Django"
 category: web
 tag: [Web, Django]
 author_profile: false
+sidebar:
+    nav: "counts"
 ---
 
 A summary of Web App Frameworks COMP3011 lecture 1

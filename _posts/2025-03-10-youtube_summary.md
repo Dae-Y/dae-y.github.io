@@ -4,6 +4,8 @@ title:  "Summary of Geoffrey Hinton's interview"
 category: technology
 tag: [ML, AI, Youtube, Interview]
 author_profile: false
+sidebar:
+    nav: "counts"
 ---
 
 # Insights from Geoffrey Hinton on the Future of AI
