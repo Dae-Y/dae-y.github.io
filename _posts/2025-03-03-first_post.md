@@ -6,10 +6,8 @@ tag: notice
 author_profile: false
 search: false
 sidebar:
-    nav: "docs"
+    nav: "counts"
 ---
-
-# Dae's Digital Notebook
 
 Welcome to my personal blog, proudly hosted on **GitHub Pages**.  
 A special thanks to the author of **Minimal Mistakes**, whose theme—powered by **Ruby** and **Jekyll**—makes creating a static website both simple and enjoyable.  
