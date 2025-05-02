@@ -11,9 +11,9 @@ sidebar:
 On this day, I completed the **AWSome Day Online Conference** and deepened my understanding of AWS cloud technologies.  
 The three‑hour workshop highlighted the importance of cloud computing. I already rely on cloud platforms such as **Google Colab** for my machine‑learning projects, and the conference showed me just how broad the cloud ecosystem really is.
 
-<div style="text-align: center;">
-  <img src="{{site.url}}/images/2025-05-02-AWS/01-capture.png" width="450" height="450" />
-</div>
+
+![daesblog]({{site.url}}/images/2025-05-02-AWS/01-capture.png){: .img-width-half .align-center}
+
 
 ## Key Takeaways
 
