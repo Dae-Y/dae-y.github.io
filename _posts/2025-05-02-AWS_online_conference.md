@@ -2,7 +2,7 @@
 layout: single
 title: "Reflection on AWSome Day Online Conference"
 category: technology
-tag: [AWS, Cloud]
+tag: aws
 author_profile: false
 sidebar:
     nav: "counts"

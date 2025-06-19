@@ -2,7 +2,7 @@
 layout: single
 title:  "Summary of Geoffrey Hinton's interview"
 category: technology
-tag: [ML, AI, Youtube, Interview]
+tag: interview
 author_profile: false
 sidebar:
     nav: "counts"
