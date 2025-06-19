@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-AU"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Dae's blog"
 title_separator          : "|"
-subtitle                 : "A Github blog for my learning journey, and more."
+subtitle                 : "A Github blog for Computing student's learning journey."
 name                     : "Dae"
 description              : "Dae's blog"
 url                      : "https://Dae-Y.github.io"
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Daehwan Yeo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/DaeLogo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A final-year Comp-Sci student at Curtin Uni, created this blog to document valuable insights I've gained throughout my studies."
   location         : "Australia"
   email            : 
