@@ -23,7 +23,7 @@ subtitle                 : "A Github blog for Computing student's learning journ
 name                     : "Dae"
 description              : "Dae's blog"
 url                      : "https://Dae-Y.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # "/assets/images/DaeLogo3.png" # path of logo image to display in the masthead
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Daehwan Yeo"
-  avatar           : "/assets/images/DaeLogo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Dae-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A final-year Comp-Sci student at Curtin Uni, created this blog to document valuable insights I've gained throughout my studies."
   location         : "Australia"
   email            : 
@@ -201,16 +201,14 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
-kramdown:
-  math_engine: mathjax # Added this line for equations
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
+# Kramdown Configuration (Combined)
 kramdown:
+  math_engine: mathjax # Moved from the first kramdown block
   input: GFM
   hard_wrap: false
   auto_ids: true
