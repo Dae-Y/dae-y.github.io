@@ -27,5 +27,10 @@ It is a non-profit personal blog, but I will appropriately reference all my sour
 
 ---
 
+*Disclaimer:* 
+*The content and notes shared on this blog are intended for educational and informational purposes only. They are mainly derived from lectures attended by the author while studying at Curtin University and reflect the author's personal understanding and interpretation. The materials do not represent official Curtin University course content, and neither the university nor the lecturers endorse or assume responsibility for any third-party resources, external links, or commentary included here. No copyright infringement is intended. This site is non-commercial and exists solely as a personal learning portfolio.*
+
+---
+
 Thank you for visiting😊  
 Feel free to explore and enjoy!❤️
