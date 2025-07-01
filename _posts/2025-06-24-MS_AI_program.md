@@ -35,34 +35,44 @@ During the program, I gained hands-on experience with:
 
 ## My Project: Simple GetNews Flow
 
-## My Project: Simple GetNews Flow
-
 Although my test account didn’t allow me to fully integrate Power Automate solutions with Copilot Studio, I built a simple **GetNews** flow in Power Automate to demonstrate how an agent can fetch and summarize information automatically.
 
-### Step 1: Choose a Source API
+### Choose a Source API
 
-I decided to use [NewsAPI.org](https://newsapi.org/) because it’s simple and free for testing purposes. I created an account and generated my own API key.
+I decided to use [NewsAPI](https://newsapi.org/) because it’s free for testing purposes. I created an account and generated my own API key.
 
-### Step 2: Set Up a Power Automate Flow
+### Set Up a Power Automate Flow
 
 Microsoft Copilot Studio works seamlessly with Power Automate to fetch and process data from external sources. I created a Power Automate flow that connects to NewsAPI and returns data for the agent.
 
-**Create a New Flow:**
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-06-24-MS/flow_01.png" style="width: 550px;" />
+</div>
+Click **Create** and select **Instant cloud flow**.
 
-1. Log in to the [Power Automate](https://flow.microsoft.com/) website with your student account.
-2. Click **Create** and select **Instant cloud flow**.
-3. For the trigger, choose **When Power Automate is called by Copilot Studio**.
-4. Give your flow a clear name, such as “GetNews”.
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-06-24-MS/flow_02.png" style="width: 550px;" />
+</div>
+For the trigger, choose **When Power Automate is called by Copilot Studio**.
 
-**Build the Flow Steps:**
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-06-24-MS/flow_03.png" style="width: 550px;" />
+</div>
+Use an **HTTP GET** action to connect to the NewsAPI endpoint, passing your API key and any query parameters.
 
-- Use an **HTTP GET** action to connect to the NewsAPI endpoint, passing your API key and any query parameters.
-- Add a **Parse JSON** step to extract specific fields (like headlines, descriptions, or URLs) from the API response.
-- Use **Append to String Variable** to format the output text that your agent will display.
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-06-24-MS/flow_04.png" style="width: 550px;" />
+</div>
+Add a **Parse JSON** step to extract specific fields (like headlines, descriptions, or URLs) from the API response.
 
-**Return Data to Copilot Studio:**
+Use **Append to String Variable** to format the output text that your agent will display.
 
-- Add a final action: **Return value(s) to Power Virtual Agents**, so your agent can display the news summary to the user.
+Add a final action: **Return value(s) to Power Virtual Agents**, so your agent can display the news summary to the user.
+
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-06-24-MS/flow_05.png" style="width: 550px;" />
+</div>
+After completion, we can proceed with testing.
 
 This setup shows how you can connect external APIs to Copilot Studio using Power Automate, without writing complex code!
 
