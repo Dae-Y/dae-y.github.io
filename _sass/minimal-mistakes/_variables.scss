@@ -18,6 +18,12 @@ $indent-var: 1.3em !default;
 /* Modern font stack */
 /* https://github.com/system-fonts/modern-font-stacks */
 
+/* system typefaces, add new fonts here */
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Iansui", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
 /* Sans serif - modern font stack */
 $system-ui: system-ui, sans-serif;
 $humanist: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
