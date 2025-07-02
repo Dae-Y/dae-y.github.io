@@ -11,7 +11,7 @@ sidebar:
 A short reflection on completing the AWS Certified AI Program.
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/01.jpg" style="width: 550px;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/01.png" style="width: 550px;" />
 </div>
 
 ## Overview
@@ -41,7 +41,7 @@ I really appreciated how the program connected technical concepts with practical
 ## What’s Next
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/02.jpg" style="width: 550px;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/02.png" style="width: 550px;" />
 </div>
 
 One of the best parts is that Lumify supports access to the learning platform until **21st July 2025**, giving me extra time to revise and deepen my understanding after my final semester exams. I’ve already booked my certification exam for **15th July**, and I’m looking forward to getting the AWS Certificate!
