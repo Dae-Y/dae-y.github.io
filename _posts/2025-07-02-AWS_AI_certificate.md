@@ -18,7 +18,7 @@ A short reflection on completing the AWS Certified AI Program.
 
 Through the **ACS**, I had an opportunity to explore AWS’s AI-related training and certification programs by enrolling in an 8-week program with **Lumify**. The course started on **10th March 2025** and concluded on **28th April 2025** with a final graduation event.
 
-The program was primarily self-paced learning through online modules, and each week included live Q&A sessions to help students with any questions. Since I was also taking a university **Machine Learning** unit and following Andrew Ng’s ML courses in Semester 1, 2025, I already had a solid foundation in ML concepts. This program really helped me expand my perspective on **real-world use cases** and the **AWS tools and services** that bring AI solutions to life.
+The program was primarily self-paced learning through online modules, and each week included live Q&A sessions to help students with any questions. Since I was also taking a Machine Learning unit in Semester 1, 2025, I already had a basic foundation in ML concepts. This program really helped me expand my perspective on **real-world use cases** and the **AWS tools and services** that bring AI solutions to life.
 
 ## What I Learned
 
