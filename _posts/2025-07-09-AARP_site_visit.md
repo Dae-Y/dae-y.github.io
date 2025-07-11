@@ -12,6 +12,10 @@ A quick reflection of the AARP site visit on the 9th Wed, July.
 
 ## AARP Site Visit
 
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-07-09-AARP/01.png" style="width: 550px;" />
+</div>
+
 During this semester break, I was fortunate enough to have the chance to join an organized visit to the **Australian Automation and Robotics Precinct (AARP)**.
 
 Around 20–30 Curtin students gathered on campus before boarding a bus out to the AARP site, a massive facility covering over **51 hectares** dedicated to testing and developing autonomous and robotics systems.
