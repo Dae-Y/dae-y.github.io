@@ -31,4 +31,5 @@ Some key points I took down:
 
 
 ## Final Thoughts
-This session reminded me that networking, adaptability, and persistence are just as important as technical skills. It was motivating to hear real-world advice from experienced professionals, and I left feeling better prepared and more confident about starting my own journey in tech.
+This session reminded me that networking and persistence are just as important as technical skills. It was motivating to hear real-world advice from experienced professionals. 
+A big thanks to the ACS team and all the speakers for sharing time, insights, and encouragement!😊

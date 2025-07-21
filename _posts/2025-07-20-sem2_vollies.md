@@ -40,5 +40,4 @@ I've learned that **most people are kind and open**, and the key is simply findi
 ---
 
 📝 This might be my final semester as an undergraduate, but experiences like this remind me how much growth happens beyond lectures and labs. I'm grateful for the memories, the chats, and the warm smiles.
-
-I haven’t had the chance to chat with everyone on the O-Week volunteering team, but I want to thank everyone.
+I haven’t had the chance to chat with everyone on the O-Week volunteering team, but I want to thank everyone.😊
