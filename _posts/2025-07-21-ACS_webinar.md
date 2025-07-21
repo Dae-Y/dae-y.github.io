@@ -2,13 +2,13 @@
 layout: single
 title: "ACS webinar - How to get a job in engineering"
 category: notes
-tag: 
+tag: acs
 author_profile: false
 sidebar:
     nav: "counts"
 ---
 
-A short reflection on ACS Webinar – How to Get a Job in Engineering (21 July 2025).
+A short reflection on Webinar – How to Get a Job in Engineering.
 
 As a Computer Science student graduating in November 2025, I found this ACS webinar incredibly insightful. Rather than focusing solely on resumes or interview tips, it offered valuable real-world advice from professionals working across various engineering and technology roles.
 
@@ -23,10 +23,9 @@ I also realised I haven’t applied enough so far, I’ve only sent out about 20
 
 ## Key Takeaways
 Some key points I took down:
-- Engineering spans more than just coding—project management plays a huge role.
-- Every engineering task is essentially a project.
+- Engineering spans more than just coding, project management plays a huge role.
 - Explore opportunities beyond traditional roles, including consulting and cross-disciplinary fields.
-- Industry readiness: Familiarize yourself with VS, Git, Jira, Agile, V-model, Simulink.
+- Industry readiness: Familiarize yourself with VS, Simulink, Git, Jira, Agile, V-model.
 - Documentation and planning are just as crucial as coding.
 - Success requires precision, purpose, and perseverance.
 
