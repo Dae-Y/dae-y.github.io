@@ -52,4 +52,12 @@ I’m excited to continue my AI learning journey and apply these skills to real-
 
 ---
 
+
+
+
+content will be updated soon
+
+finished the exam, waiting for the result ...
+
+
 Thanks for reading!😊
