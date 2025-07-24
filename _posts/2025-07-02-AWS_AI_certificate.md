@@ -41,7 +41,7 @@ I really appreciated how the program connected technical concepts with practical
 ## What’s Next
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/02.png" style="width: 80%;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/02.png" style="width: 50%;" />
 </div>
 
 I had originally booked my AWS certification exam for 15th July, but a winter flu on the 10th had other plans. Since it was O-week and I was also volunteering on campus, I’ve now rescheduled for 24th July and I’m feeling ready to tackle it with fresh energy 💪
@@ -65,10 +65,8 @@ According to AWS, the exam covers five key domains:
 Due to copyright reasons, I can't share specific contents here. However, I highly recommend the **AWS Official Practice Questions** set if you're preparing for the test.
 
 
-One thing I'd like to share is the 
-
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/05_awsbuilder.png" style="width: 80%;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/05_awsbuilder.png" style="width: 60%;" />
 </div>
 
 ### 📘 [AWS Skill Builder – Official Practice Questions](https://skillbuilder.aws/learn/4URFGY63KV/exam-prep-official-practice-question-set-aws-certified-ai-practitioner-aif-c01-english/FVG43Y1PAX)
@@ -79,7 +77,7 @@ This free question set includes **20 practice questions** with detailed feedback
 ## Certification Success
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/04_credit.png" style="width: 80%;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/04_credit.png" style="width: 60%;" />
 </div>
 
 At the end of the exam, a message indicated that it could take up to **5 business days** to receive results. Fortunately, I received a **“Congratulations!” email just about 8 hours later** 🥳🎉
@@ -87,13 +85,14 @@ At the end of the exam, a message indicated that it could take up to **5 busines
 ### Digital Badge Earned
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/03_badge.png" style="width: 80%;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/03_badge.png" style="width: 30%;" />
 </div>
 
-I’m thrilled to have officially earned the **AWS Certified AI Practitioner** badge!
+I’m thrilled to have officially earned the **AWS Certified AI Practitioner** badge!😄
 
-Completing this program has given me more confidence to pursue AI projects and leverage cloud services like AWS to build scalable, ethical, and secure AI solutions.😄
+Completing this program has given me more confidence to pursue AI projects and leverage cloud services like AWS to build scalable, ethical, and secure AI solutions.
 
-🙌 This achievement marks an exciting step forward in my AI learning journey.
+This achievement marks an exciting step forward in my AI learning journey.🙌
+
 
 Thanks for reading!😊
