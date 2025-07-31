@@ -12,7 +12,7 @@ How to remotely access lab machines for computing units that require GPU Linux m
 
 ## 0. Preface
 
-This guide outlines the steps for students in computing units who need to remotely access Linux machines in lab 314.232. It covers connecting via the Curtin VPN, setting up VS Code for SSH access, and configuring a Python environment with Miniconda to support tasks in fields like Machine Perception, and Data Mining.
+This guide outlines the steps for students in computing units who need to remotely access Linux machines in lab 314.232. It covers connecting via the Curtin VPN, setting up VS Code for SSH access, and configuring a Python environment with Miniconda to support tasks.
 
 ## 1. Curtin Network VPN
 
@@ -34,16 +34,17 @@ Once installed, connect to the Curtin network.
 
 ## 2. Setting Up VS Code
 
+Install the following extensions in VS Code:
+
 <div style="text-align: left; margin-bottom: 5px;">
   <img src="{{site.url}}/images/2025-07-25-CSLab_guide/03.png" style="width: 80%;" />
 </div>
 
 Install the following extensions in VS Code:
-- Remote - SSH
-- Python
+- Remote Explorer, SSH
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-25-CSLab_guide/04.png" style="width: 90%;" />
+  <img src="{{site.url}}/images/2025-07-25-CSLab_guide/04.png" style="width: 60%;" />
 </div>
 
 Click the “New Remote” button and enter the following command:
