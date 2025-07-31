@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Quick Guide to SSH into Computer Labs"
-category: technology
+category: coursework
 tag: 
 author_profile: false
 sidebar:
