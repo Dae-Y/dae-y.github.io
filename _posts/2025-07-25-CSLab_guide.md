@@ -8,11 +8,12 @@ sidebar:
     nav: "counts"
 ---
 
-How to remotely access lab machines for computing units that require GPU Linux machines in lab 314.232.
+Steps to remotely access Lab 314.232 machines for use in computing units.
 
 ## 0. Preface
 
-This guide outlines the steps for students in computing units who need to remotely access Linux machines in lab 314.232. It covers connecting via the Curtin VPN, setting up VS Code for SSH access, and configuring a Python environment with Miniconda to support tasks.
+This guide outlines the steps to remotely access Linux machines in lab 314.232. 
+It will cover connecting via the Curtin VPN, setting up VS Code for SSH access, and configuring a Python environment with Miniconda.
 
 ## 1. Curtin Network VPN
 
