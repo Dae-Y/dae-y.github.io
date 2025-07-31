@@ -34,8 +34,11 @@ Once installed, connect to the Curtin network.
 
 ## 2. Setting Up VS Code
 
-Install the following extensions in VS Code:
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-07-25-CSLab_guide/03.png" style="width: 70%;" />
+</div>
 
+Install the following extensions in VS Code:
 - Remote - SSH
 - Python
 
