@@ -87,10 +87,10 @@ You can access the free resources by clicking on any badges and selecting "Free"
 While the free resources don't provide full access to premium features like official full-length practice exams or hands-on labs, they still offer many digital courses that are an excellent starting point for building foundational knowledge. 
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2025-07-02-AWS/07.png" style="width: 80%;" />
+  <img src="{{site.url}}/images/2025-07-02-AWS/07.png" style="width: 60%;" />
 </div>
 
-The 20-question practice set I mentioned earlier is also available for free. I would highly recommend exploring these free resources before taking the exam! 😊
+I would highly recommend exploring these free resources before taking the exam! 😊
 
 
 ## Certification Success
