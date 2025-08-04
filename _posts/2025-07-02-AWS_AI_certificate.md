@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Reflection on AWS AI Practitioner Program"
+title: "Reflection on AWS Certified AI Practitioner (AIF-CO1)"
 category: technology
 tag: ai
 author_profile: false
@@ -8,7 +8,7 @@ sidebar:
     nav: "counts"
 ---
 
-A short reflection on completing the AWS Certified AI Program.
+A reflection on completing my AWS Certified AI Practitioner (AIF-CO1).
 
 <div style="text-align: left; margin-bottom: 5px;">
   <img src="{{site.url}}/images/2025-07-02-AWS/01.png" style="width: 550px;" />
@@ -18,7 +18,7 @@ A short reflection on completing the AWS Certified AI Program.
 
 Through the **ACS**, I had an opportunity to explore AWS’s AI-related training and certification programs by enrolling in an 8-week program with **Lumify**. The course started on **10th March 2025** and concluded on **28th April 2025** with a final graduation event.
 
-The program was primarily self-paced learning through online modules, and each week included live Q&A sessions to help students with any questions. Since I was also taking a Machine Learning unit in Semester 1, 2025, I already had a basic foundation in ML concepts. This program really helped me expand my perspective on **real-world use cases** and the **AWS tools and services** that bring AI solutions to life.
+The program was primarily self-paced learning through online modules, and each week included live Q&A sessions to help students with any questions. Since I was also taking a Machine Learning unit in Semester 1, 2025, I already had a basic foundation in ML concepts. This program really helped me expand my perspective on **real-world use cases** and the **AWS tools and services**.
 
 ## What I Learned
 
@@ -73,6 +73,25 @@ Due to copyright reasons, I can't share specific contents here. However, I highl
 
 This free question set includes **20 practice questions** with detailed feedback and links to recommended learning resources, which really helped reinforce key topics.
 
+## About AWS Skill Builder
+
+### 📘 [AWS Skill Builder](https://skillbuilder.aws/learn/)
+
+I think it's worthwhile to elaborate on the AWS Skill Builder webpage. It offers **free** and subscription-based resources to help us prepare for AWS Certified exams.
+
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-07-02-AWS/06.png" style="width: 80%;" />
+</div>
+
+You can access the free resources by clicking on any badges and selecting "Free" in the price filter.
+While the free resources don't provide full access to premium features like official full-length practice exams or hands-on labs, they still offer many digital courses that are an excellent starting point for building foundational knowledge. 
+
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2025-07-02-AWS/07.png" style="width: 80%;" />
+</div>
+
+The 20-question practice set I mentioned earlier is also available for free. I would highly recommend exploring these free resources before taking the exam! 😊
+
 
 ## Certification Success
 
@@ -88,11 +107,11 @@ At the end of the exam, a message indicated that it could take up to **5 busines
   <img src="{{site.url}}/images/2025-07-02-AWS/03_badge.png" style="width: 30%;" />
 </div>
 
-I’m thrilled to have officially earned the **AWS Certified AI Practitioner** badge!😄
+I’m thrilled to have officially earned the **AWS Certified AI Practitioner** badge! 😄
 
-Completing this program has given me more confidence to pursue AI projects and leverage cloud services like AWS to build scalable, ethical, and secure AI solutions.
+Completing this program has significantly boosted my confidence to explore AI-driven projects and harness cloud platforms like AWS to build scalable, ethical, and secure solutions. It marks a pivotal milestone in my journey of learning and growth within the AI field.
 
-This achievement marks an exciting step forward in my AI learning journey.🙌
+I'm considering further certifications, either the AWS Cloud Practitioner (Foundational) or the Machine Learning Engineer (Associate), to deepen my technical expertise and strengthen my AI and machine learning foundation.
 
 
-Thanks for reading!😊
+Thanks for reading! 😊
