@@ -19,7 +19,7 @@ locale                   : "en-AU"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Dae's blog"
 title_separator          : "|"
-subtitle                 : "A Github blog for Comp-Sci student's learning journey."
+subtitle                 : "A GitHub blog exploring my growth, projects, and discoveries in computer science."
 name                     : "Dae"
 description              : "Dae's blog"
 url                      : "https://Dae-Y.github.io"
@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Daehwan Yeo"
-  avatar           : "/assets/images/Dae-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A final-year Comp-Sci student at Curtin Uni, created this blog to document valuable insights I've gained throughout my studies."
+  avatar           : "/assets/images/Dae-logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Computer Science Honours student (2026) specialising in computer vision, sharing insights from my studies and projects."
   location         : "Australia"
   email            : 
   links:
