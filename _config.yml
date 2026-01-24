@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Daehwan Yeo"
-  avatar           : "/assets/images/Dae-logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Dae-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computer Science Honours student (2026) specialising in computer vision, sharing insights from my studies and projects."
   location         : "Australia"
   email            : 
