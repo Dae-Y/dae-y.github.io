@@ -19,7 +19,7 @@ locale                   : "en-AU"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Dae's blog"
 title_separator          : "|"
-subtitle                 : "A GitHub blog exploring my growth, projects, and discoveries in computer science."
+subtitle                 : "A computer science student's journey through learning, and personal growth 😊"
 name                     : "Dae"
 description              : "Dae's blog"
 url                      : "https://Dae-Y.github.io"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Daehwan Yeo"
   avatar           : "/assets/images/Dae-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Science Honours student (2026) specialising in computer vision, sharing insights from my studies and projects."
+  bio              : "Computer Science Honours student (2026) specialising in 3D medical image segmentation."
   location         : "Australia"
   email            : 
   links:
@@ -128,6 +128,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Dae-Y"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daehwan-y/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -150,6 +153,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Dae-Y"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daehwan-y/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
