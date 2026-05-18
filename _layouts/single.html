@@ -20,7 +20,10 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% comment %}
+  Disabled left sidebar on single post/page layout.
   {% include sidebar.html locale=locale %}
+  {% endcomment %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
