@@ -5,7 +5,7 @@ permalink: "/docs/history/"
 excerpt: Change log of enhancements and bug fixes made to the theme.
 sidebar:
   nav: docs
-last_modified_at: '2025-06-16T00:55:04+08:00'
+last_modified_at: '2026-04-30T01:55:45+08:00'
 toc: false
 ---
 
@@ -15,6 +15,63 @@ toc: false
 -->
 
 {% raw %}
+## Unreleased
+
+### Enhancements
+
+- Respect custom parameters in yiq-contrast-color function [#5453](https://github.com/mmistakes/minimal-mistakes/issues/5453)
+- Allow specifying `rtl` in both page and layout [#5460](https://github.com/mmistakes/minimal-mistakes/issues/5460)
+- Add title attribute to video iframes for accessibility [#5471](https://github.com/mmistakes/minimal-mistakes/issues/5471)
+- Silence "Sass @import rules are deprecated" warning
+- Allow per-post or per-collection `date_format` values. [#5477](https://github.com/mmistakes/minimal-mistakes/issues/5477)
+
+### Documentation
+
+- Update /docs/javascript/ to reflect changes in `0b8b523`
+
+## [4.28.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.28.0)
+
+### Enhancements
+
+- Updated Traditional Chinese translation [#5250](https://github.com/mmistakes/minimal-mistakes/issues/5250)
+- Add built-in support for jekyll-gfm-admonitions [#5312](https://github.com/mmistakes/minimal-mistakes/issues/5312)
+- Add Latte and Mocha skins from Catppuccin project [#5341](https://github.com/mmistakes/minimal-mistakes/issues/5341)
+- Add support for Swetrix, a GDPR-compliant analytics provider [#5344](https://github.com/mmistakes/minimal-mistakes/issues/5344)
+- Support resolving `ui-text` using `page.locale` when available [#5439](https://github.com/mmistakes/minimal-mistakes/issues/5439)
+- Add `aria-label` to all nav elements for WCAG compliance [#5442](https://github.com/mmistakes/minimal-mistakes/issues/5442)
+- Add IndieWeb microformat support and configurable footer `rel` attribute [#5443](https://github.com/mmistakes/minimal-mistakes/issues/5443)
+- Add `og:image:alt` and `twitter:image:alt` support [#5444](https://github.com/mmistakes/minimal-mistakes/issues/5444)
+- Add `fediverse:creator` meta tag for link preview attribution [#5445](https://github.com/mmistakes/minimal-mistakes/issues/5445)
+- Update hardcoded icon classes for Font Awesome 6 [#5446](https://github.com/mmistakes/minimal-mistakes/issues/5446)
+- Add missing brand-color rules for newer social platforms [#5447](https://github.com/mmistakes/minimal-mistakes/issues/5447)
+- Add custom sidebar content hook [#5448](https://github.com/mmistakes/minimal-mistakes/issues/5448)
+- Add config toggle to suppress taxonomy display on posts [#5449](https://github.com/mmistakes/minimal-mistakes/issues/5449)
+- Minor changes to the PR auto labeling GitHub Actions workflow
+
+Special thanks to @bexelbie for their contributions in this release.
+
+### Bug Fixes
+
+- Fix some social icon colors and missing Korean translations [#5103](https://github.com/mmistakes/minimal-mistakes/issues/5103)
+
+## [4.27.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3)
+
+### Bug Fixes
+
+- Add explicit CSS rules for `.sr-only` following Font Awesome 7's changes. [#5296](https://github.com/mmistakes/minimal-mistakes/issues/5296)
+
+## [4.27.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.2)
+
+### Enhancements
+
+- Hide `.page__footer-follow` if there are no links nor atom feed. [#5279](https://github.com/mmistakes/minimal-mistakes/issues/5279)
+- Add HTML escaping for some titles, labels and metada that was missing. [#5276](https://github.com/mmistakes/minimal-mistakes/issues/5276)
+- Add optional `footer.since` for copyright time range. [#5275](https://github.com/mmistakes/minimal-mistakes/issues/5275)
+
+### Bug Fixes
+
+- Add `escape_once` to gallery title and alt text.
+
 ## [4.27.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.1)
 
 ### Enhancements

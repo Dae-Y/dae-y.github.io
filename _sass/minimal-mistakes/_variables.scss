@@ -18,12 +18,6 @@ $indent-var: 1.3em !default;
 /* Modern font stack */
 /* https://github.com/system-fonts/modern-font-stacks */
 
-/* system typefaces, add new fonts here */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Iansui", "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
-
 /* Sans serif - modern font stack */
 $system-ui: system-ui, sans-serif;
 $humanist: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
@@ -130,13 +124,14 @@ $yiq-debug: false !default;
 $behance-color: #1769ff !default;
 $bitbucket-color: #205081 !default;
 $bluesky-color: #1083fe !default;
+$discord-color: #5865f2 !default;
 $dribbble-color: #ea4c89 !default;
 $facebook-color: #3b5998 !default;
 $flickr-color: #ff0084 !default;
 $foursquare-color: #0072b1 !default;
 $github-color: #171516 !default;
 $gitlab-color: #e24329 !default;
-$instagram-color: #517fa4 !default;
+$instagram-color: #cd3376 !default;
 $keybase-color: #ef7639 !default;
 $lastfm-color: #d51007 !default;
 $linkedin-color: #007bb6 !default;
@@ -144,15 +139,20 @@ $mastodon-color: #2b90d9 !default;
 $pinterest-color: #cb2027 !default;
 $reddit-color: #ff4500 !default;
 $rss-color: #fa9b39 !default;
+$signal-color: #3a76f0 !default;
 $soundcloud-color: #ff3300 !default;
 $stackoverflow-color: #fe7a15 !default;
+$telegram-color: #2aabee !default;
 $tumblr-color: #32506d !default;
 $twitter-color: #55acee !default;
 $x-color: #0f1419 !default;
 $vimeo-color: #1ab7ea !default;
 $vine-color: #00bf8f !default;
-$youtube-color: #bb0000 !default;
+$whatsapp-color: #25d366 !default;
 $xing-color: #006567 !default;
+$youtube-color: #bb0000 !default;
+
+$black-color: #000000;
 
 /* links */
 $link-color: mix(#000, $info-color, 20%) !default;
