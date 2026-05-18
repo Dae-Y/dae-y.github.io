@@ -5,5 +5,26 @@ search: false
 
 @charset "utf-8";
 
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Iansui&display=swap");
+
+/* ==========================================================================
+   Custom typography overrides
+   ========================================================================== */
+
+/*
+   Define these before importing Minimal Mistakes.
+   The theme's variables use !default, so these values will be kept.
+*/
+
+$sans-serif: -apple-system, BlinkMacSystemFont, "Iansui", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$sans-serif-narrow: $sans-serif;
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+$caption-font-family: $sans-serif;
+
+/* Minimal Mistakes */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
