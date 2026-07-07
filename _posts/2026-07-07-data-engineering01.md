@@ -25,7 +25,7 @@ It combines data engineering, analytics, notebooks, Spark, SQL, and other data w
 I started working through a Microsoft Learn module and found that Fabric provides a 60-day free trial. It felt like a good opportunity to actually use the platform instead of only reading about it. My plan is to make good use of the trial period, work through the learning materials, and hopefully prepare properly for the DP-700 exam.
 
 <div style="text-align: left; margin-bottom: 5px;">
-  <img src="{{site.url}}/images/2026-07-07-MS_Learn/2026-07-07-fabric.png" style="width: 90%;" />
+  <img src="{{site.url}}/images/2026-07-07-MS_Learn/2026-07-07-fabric01.png" style="width: 90%;" />
 </div>
 
 The notebook experience was also very relatable. It reminded me a lot of working in Jupyter Notebook. I could write code, run cells, inspect the output, and work with data interactively. Spark DataFrames also felt familiar because of my previous machine learning and data mining experience, while the SQL side connected back to what I learned in my Database Systems unit.
@@ -45,6 +45,10 @@ I also practised working with data in a **Spark DataFrame**.
 The workflow was quite straightforward: load data such as a CSV file, transform it using operations like `select`, `filter`, and `groupBy`, and then save the result in a format such as Parquet. Partitioning can also be used when appropriate to improve how large datasets are stored and processed.
 
 Spark DataFrames feel similar to Pandas DataFrames at a high level, but the important difference is scale.
+
+<div style="text-align: left; margin-bottom: 5px;">
+  <img src="{{site.url}}/images/2026-07-07-MS_Learn/2026-07-07-fabric02.png" style="width: 90%;" />
+</div>
 
 Pandas usually processes data in the memory of a single machine. Spark DataFrames are designed to distribute work across multiple worker nodes, which makes them much more suitable for large-scale data processing.
 
