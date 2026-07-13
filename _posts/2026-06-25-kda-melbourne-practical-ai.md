@@ -4,7 +4,6 @@ title: "A Melbourne Meetup and Thoughts on Practical AI"
 category: notes
 tag:
 author_profile: false
-search: false
 sidebar:
     nav: "counts"
 ---

@@ -4,7 +4,6 @@ title: "HMAS Stirling Site Visit"
 category: notes
 tag:
 author_profile: false
-search: false
 sidebar:
     nav: "counts"
 ---
@@ -15,9 +14,9 @@ I was lucky enough to get a spot for the site visit to HMAS Stirling, the larges
 
 I was initially a bit worried about it being a full-day event, but the schedule was perfectly compact. We got to explore most of the facilities firsthand. Huge thanks to the organisers for making it happen, especially to Kyle and Darren.
 
-Studying theory at uni is one thing (though to be fair, Curtin does a great job with industry-related assignments), but this was different. Experiencing the defense industry in person and hearing their real-world stories was incredibly valuable.
+Studying theory at uni is one thing (though to be fair, Curtin does a great job with industry-related assignments), but this was different. Experiencing the defence industry in person and hearing their real-world stories was incredibly valuable.
 
-We checked out the Navy Training center, various facilities, and even went aboard a ship. Since it's all classified military information, I didn't take any photos and won't write down the specifics here.
+We checked out the Navy Training centre, various facilities, and even went aboard a ship. Since it's all classified military information, I didn't take any photos and won't write down the specifics here.
 
 I did get to see massive warships docked at the base, like the Anzac-class frigates and Collins-class submarines. They mentioned they are currently expanding the infrastructure to host US and UK nuclear submarines under the AUKUS alliance. They stressed how much they need people right now and really encouraged us to consider a career in defense.
 

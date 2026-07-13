@@ -4,7 +4,6 @@ title: "Thoughts During Tuition Free Week"
 category: notes
 tag: 
 author_profile: false
-search: false
 sidebar:
     nav: "counts"
 ---
