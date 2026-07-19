@@ -1,13 +1,12 @@
 ---
-
 layout: single
 title: "Building Email-to-AI for a Real Problem at Home"
 category: notes
 tag: ai
 author_profile: false
 sidebar:
-nav: "counts"
--------------
+    nav: "counts"
+---
 
 There is something especially rewarding about using what I have learned to solve a real problem for someone close to me.
 
