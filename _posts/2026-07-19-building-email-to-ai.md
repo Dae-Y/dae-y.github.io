@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Building Email-to-AI for a Real Problem at Home"
+title: "Building email-to-ai for a real problem"
 category: notes
 tag: ai
 author_profile: false
