@@ -3,9 +3,8 @@
 layout: single
 title: "Building Email-to-AI for a Real Problem at Home"
 category: notes
-tag:
+tag: ai
 author_profile: false
-search: false
 sidebar:
 nav: "counts"
 -------------
