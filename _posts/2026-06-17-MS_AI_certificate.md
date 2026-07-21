@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Reflection on Microsoft AI Skills Fest 2026"
-category: technology
+category: Microsoft
 tag: ai
 author_profile: false
 sidebar:

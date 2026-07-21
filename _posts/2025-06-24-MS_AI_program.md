@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Completion of Microsoft AI Skills for students program"
-category: technology
+category: Microsoft
 tag: ai
 author_profile: false
 sidebar:
