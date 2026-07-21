@@ -10,7 +10,7 @@ sidebar:
 
 I passed **AI-901: Microsoft Azure AI Fundamentals** and earned the **Microsoft Certified: Azure AI Fundamentals** certification!
 
-This post follows on from my earlier reflection on [Microsoft AI Skills Fest 2026](https://dae-y.github.io/Microsoft/MS_AI_certificate/).
+This post follows on from my earlier reflection on [Microsoft AI Skills Fest 2026](https://dae-y.github.io/microsoft/MS_AI_certificate/).
 
 A few weeks ago, I attended the free Microsoft AI Skills Fest event, completed some of its learning content, and received a voucher for a free certification exam. 
 
