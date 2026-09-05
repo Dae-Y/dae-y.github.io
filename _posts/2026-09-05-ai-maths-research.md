@@ -41,7 +41,7 @@ For decades, the natural constructions were based on lattice-like arrangements.
 
 Erdős conjectured that the growth should essentially remain near-linear:
 
-$ u(n)=n^{1+o(1)}. $
+$ u(n)=n^{1+o(1)} $.
 
 The $o(1)$ term means that the extra amount in the exponent approaches zero as $n$ grows.
 
@@ -49,13 +49,7 @@ This was a very persistent belief.
 
 Then in 2026, an OpenAI reasoning model produced a counterexample.
 
-The new construction shows that for infinitely many values of $n$, there are configurations with at least
-
-$ u(n)\geq n^{1+\delta} $
-
-for some fixed
-
-$ \delta>0. $
+The new construction shows that for infinitely many values of $n$, there are configurations with at least $ u(n)\geq n^{1+\delta} $ for some fixed $ \delta>0 $.
 
 
 That is enough to destroy the old conjecture.
