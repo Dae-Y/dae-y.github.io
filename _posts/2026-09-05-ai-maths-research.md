@@ -30,37 +30,32 @@ So I wanted to write down some of my recent thoughts about AI, mathematics, rese
 
 The Erdős unit distance problem is very easy to explain.
 
-Suppose we place \(n\) points on a two-dimensional plane.
+Suppose we place $n$ points on a two-dimensional plane.
 
 How many pairs of those points can be exactly distance 1 apart?
 
-If we call the maximum possible number of unit-distance pairs \(u(n)\), the problem is to understand how quickly \(u(n)\) can grow as \(n\) becomes large.
+If we call the maximum possible number of unit-distance pairs $u(n)$, the problem is to understand how quickly $u(n)$ can grow as $n$ becomes large.
 
 For decades, the natural constructions were based on lattice-like arrangements.
 
 Erdős conjectured that the growth should essentially remain near-linear:
 
-$$
-u(n)=n^{1+o(1)}.
-$$
+$ u(n)=n^{1+o(1)}. $
 
-The \(o(1)\) term means that the extra amount in the exponent approaches zero as \(n\) grows.
+The $o(1)$ term means that the extra amount in the exponent approaches zero as $n$ grows.
 
 This was a very persistent belief.
 
 Then in 2026, an OpenAI reasoning model produced a counterexample.
 
-The new construction shows that for infinitely many values of \(n\), there are configurations with at least
+The new construction shows that for infinitely many values of $n$, there are configurations with at least
 
-$$
-u(n)\geq n^{1+\delta}
-$$
+$ u(n)\geq n^{1+\delta} $
 
 for some fixed
 
-$$
-\delta>0.
-$$
+$ \delta>0. $
+
 
 That is enough to destroy the old conjecture.
 
