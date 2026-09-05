@@ -39,7 +39,7 @@ That is enough to disprove the old conjecture.
 
 What interested me even more was **how** the result was found. The key ideas came from sophisticated algebraic number theory rather than from the area where I would naturally expect a geometry problem to be attacked. The proof uses structures related to algebraic number fields and class field towers to construct configurations that beat the behaviour expected from traditional lattice approaches.
 
-A researcher working mainly in discrete geometry may naturally develop intuition around geometric constructions. An AI model does not have the same psychological attachment to field boundaries, so it can search across mathematical literature and try connections that may feel unusual to a specialist.
+A researcher working mainly in discrete geometry may naturally develop intuition around geometric constructions. AI-assisted exploration is not tied to a researcher's disciplinary habits in quite the same way, so it can sometimes surface connections across fields that may not be immediately obvious.
 
 In this case, bringing deep algebraic number theory into an elementary-looking geometry problem worked.
 
@@ -47,9 +47,9 @@ That feels like one of the strongest aspects of current AI: not necessarily inve
 
 ## But I am not ready to call this AGI
 
-It would be unfair to describe the Erdős result as simple brute-force search. The model had to make a non-trivial mathematical connection, construct an infinite family, and produce an argument that human mathematicians could verify.
+It would be unfair to describe the Erdős result as simple brute-force search. The result involved a non-trivial mathematical connection, an infinite construction, and an argument that human mathematicians could verify.
 
-At the same time, it was still working on a clearly defined mathematical target. The problem already existed, the definitions were known, the standards for a valid proof were established, and the relevant mathematical literature already existed.
+At the same time, the model was still working on a clearly defined mathematical target. The problem already existed, the definitions were known, the standards for a valid proof were established, and the relevant mathematical literature already existed.
 
 The model found an extraordinary route through that world.
 
@@ -65,7 +65,7 @@ I do not know yet, and that is part of what makes this period interesting.
 
 I am not convinced that simply scaling today's transformer architecture forever automatically leads to AGI.
 
-World models are one interesting direction. Instead of mainly learning to predict token sequences, a world-model-based system tries to build internal representations of how environments evolve and how actions produce consequences. That seems useful if we want systems that reason about physical and causal structure rather than only representations of it.
+World models are one interesting direction. Instead of mainly learning to predict token sequences, a world-model-based system tries to build internal representations of how environments evolve and how actions produce consequences.
 
 Neuro-symbolic approaches are also interesting because they attempt to combine the flexible pattern recognition of neural networks with the exactness of symbolic reasoning.
 
@@ -111,7 +111,7 @@ A simplified version looks like this:
 
 **Step 4:** Repeat until every variable has been assigned.
 
-A straightforward implementation can be kept polynomial, for example around $O(n^2m)$ depending on how the scores are recomputed.
+A straightforward implementation can be kept polynomial, although the exact runtime depends on how the scores are recomputed.
 
 So have we solved P vs NP and earned the Millennium Prize? Unfortunately, no.
 
@@ -205,11 +205,9 @@ We are nowhere near proving that, but the major breakthrough beginning with Yita
 
 Eventually the unconditional published frontier reached $H_1\leq246$, where it remained for years.
 
-Then, at the end of August and beginning of September 2026, the frontier suddenly started moving again.
+Then, at the end of August and beginning of September 2026, the area suddenly became very active again. Stadlmann posted a new result showing $H_1\leq240$, followed by further AI-assisted claims and formalisation work proposing bounds of 212 and 186.
 
-Julia Stadlmann posted a new result showing $H_1\leq240$. Soon afterwards, another result pushed the bound to 212. Then OpenAI published work targeting $H_1\leq186$, together with a Lean formalisation and numerical certificate.
-
-Watching a frontier that had been sitting at 246 for roughly a decade suddenly move $246\rightarrow240\rightarrow212\rightarrow186$ within days was wild.
+Watching a frontier that had sat at 246 for roughly a decade suddenly produce new results and claims around 240, 212, and 186 within days was wild.
 
 This does **not** solve the Twin Prime Conjecture. We are still very far from 2. But that is almost what made it more interesting: a long-standing frontier had suddenly become active again.
 
