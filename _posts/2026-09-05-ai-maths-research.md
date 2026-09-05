@@ -69,7 +69,7 @@ World models are one interesting direction. Instead of mainly learning to predic
 
 Neuro-symbolic approaches are also interesting because they attempt to combine the flexible pattern recognition of neural networks with the exactness of symbolic reasoning.
 
-The eventual architecture may combine neural representation learning, symbolic verification, persistent memory, active experimentation, world models, physical embodiment, autonomous goal formation, and perhaps ideas that have not even been invented yet.
+Maybe future systems will combine world models, symbolic reasoning, memory, embodiment, or something we have not invented yet.
 
 For now, I find it more useful to think of current models as extremely powerful research tools rather than argue over whether they already count as AGI.
 
@@ -93,49 +93,49 @@ That universal requirement is one reason the problem is so difficult.
 
 There are also known barriers showing that broad families of proof techniques are insufficient. Relativisation, Natural Proofs, and algebrisation are examples. Humanity has not only failed to find the right proof; we have also discovered reasons why several major styles of proof cannot settle the problem by themselves.
 
-## Designing my own terrible polynomial-time SAT solver
+## Playing with a polynomial-time SAT idea
 
-Just for fun, I started thinking about what a fake polynomial-time algorithm for 3-SAT might look like and where it would fail.
+With some help from AI, I played around with a toy solver inspired by a known idea from **MAX-3SAT**: treat unassigned variables as 50/50 possibilities, estimate the expected number of satisfied clauses, and greedily choose the better assignment.
 
-Suppose the input contains $n$ variables and $m$ clauses.
+For a 3-literal clause whose variables are still unresolved, the probability that all three literals are false is $\left(\frac{1}{2}\right)^3=\frac{1}{8}$, so a random assignment satisfies the clause with probability $1-\frac{1}{8}=\frac{7}{8}$.
 
-**Step 1:** Start with every variable unassigned. For intuition, imagine representing an undecided Boolean variable as $x_i=0.5$. This is not a real Boolean assignment; it only represents that I have not committed to TRUE or FALSE yet.
+This leads to the well-known conditional-expectation idea behind a polynomial-time $7/8$ approximation for MAX-3SAT.
 
-**Step 2:** For each remaining variable, estimate how good the formula would look if that variable were set to TRUE versus FALSE. For a clause whose unresolved literals are treated as independent 50/50 possibilities, I can invent a temporary satisfaction score. If all three literals are undecided, the probability that the clause fails is $\left(\frac{1}{2}\right)^3=\frac{1}{8}$, so the probability that it is satisfied is $1-\frac{1}{8}=\frac{7}{8}$.
+A simplified version looks like this:
 
-**Step 3:** Measure how much the overall score changes when each variable becomes TRUE or FALSE.
+**Step 1:** Start with every variable unassigned.
 
-**Step 4:** Choose the variable and value that produces the biggest immediate improvement and commit to it permanently.
+**Step 2:** For each remaining variable, compare the expected number of satisfied clauses if it is set to TRUE or FALSE.
 
-**Step 5:** Run unit propagation and simplify the formula.
+**Step 3:** Choose the better option, fix that variable, and simplify the formula.
 
-**Step 6:** Repeat until everything has been assigned.
+**Step 4:** Repeat until every variable has been assigned.
 
-This sounds surprisingly reasonable, and the runtime can clearly be kept polynomial. A naive implementation that reevaluates every remaining variable against every clause at each stage might take roughly $O(n^2m)$, which is still polynomial.
+A straightforward implementation can be kept polynomial, for example around $O(n^2m)$ depending on how the scores are recomputed.
 
-Amazing. I have solved P vs NP. Time to collect the Millennium Prize.
+So have we solved P vs NP and earned the Millennium Prize? Unfortunately, no.
 
-Unfortunately, there is a minor problem: the algorithm is wrong.
+The key difference is that this kind of method is an **approximation algorithm for MAX-3SAT**, not an exact polynomial-time solver for 3-SAT. It can guarantee a good assignment, but it does not guarantee that every clause will be satisfied even when a satisfying assignment exists.
 
 ## The wall: local decisions are not global solutions
 
-The greedy score only tells me which choice looks good **right now**. It does not tell me whether that choice destroys the only satisfying assignment somewhere deeper in the search space.
+The problem becomes clearer if I think of the method as a greedy SAT solver.
 
-Imagine that setting $A=\text{TRUE}$ immediately helps satisfy 99 clauses, so the algorithm commits to TRUE. Much later, after many other assignments, I might discover that a small group of clauses can only be satisfied if $A=\text{FALSE}$.
+A choice can look very good locally while still destroying the only fully satisfying assignment deeper in the search space. Setting $A=\text{TRUE}$ might immediately satisfy many clauses, but later I could discover that the remaining formula was satisfiable only if $A=\text{FALSE}$.
 
-The original formula may have been satisfiable. I simply walked into the wrong region of the search space.
-
-The obvious response is to go back and change $A$.
+The obvious response is to go back and try the other choice.
 
 And there it is: backtracking.
 
-Once the algorithm repeatedly undoes earlier decisions and explores alternative branches, the search tree can explode. In the worst case, there are $2^n$ possible Boolean assignments.
+Once the algorithm starts undoing earlier decisions and exploring alternative branches, the search tree can grow exponentially. In the worst case, there are $2^n$ possible Boolean assignments.
 
-Modern SAT solvers are obviously far more sophisticated than this silly greedy algorithm. They use conflict-driven clause learning, branching heuristics, propagation, restarts, preprocessing, and many other techniques, and they can solve enormous practical instances.
+Modern SAT solvers are far more sophisticated than this toy example. They use techniques such as conflict-driven clause learning, propagation, branching heuristics, restarts, and preprocessing, and they solve very large practical instances extremely well.
 
-But worst-case complexity is still the monster hiding underneath everything.
+But the worst-case complexity problem remains.
 
-Trying to design even a fake polynomial SAT algorithm made me appreciate the problem more. If I commit aggressively, I risk making an irreversible bad choice. If I explore alternatives, I risk exponential growth. Proving that **every conceivable algorithm** must ultimately face an equivalent barrier is exactly the part nobody knows how to do.
+Following this simple example helped me see the distinction more clearly: finding a polynomial-time approximation is one thing; finding an exact polynomial-time algorithm for an NP-complete problem is something entirely different.
+
+And proving that **no possible polynomial-time algorithm** can ever do it is harder again.
 
 ## Then I wondered: what about quantum mechanics?
 
@@ -265,7 +265,7 @@ The more I think about it, the less interesting the question "Will AI replace ma
 
 A better question is: **what can mathematicians, scientists, and engineers discover when the cost of exploring ideas becomes dramatically lower?**
 
-AI can now help search literature, generate candidate derivations, translate arguments into formal notation, test edge cases, write experimental code, run numerical searches, compare approaches, identify counterexamples, explain unfamiliar theory, and criticise reasoning.
+AI can already help me search literature, test ideas, write experimental code, check edge cases, and explore directions much faster than before.
 
 Most ideas will still fail, but failure becomes cheaper.
 
