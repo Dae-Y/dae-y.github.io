@@ -74,9 +74,7 @@ That feels like one of the real strengths of current AI.
 
 ## But I am not ready to call this AGI
 
-At the same time, I still hesitate when people see results like this and immediately jump to:
-
-> AGI is here.
+At the same time, I still hesitate when people see results like this and immediately jump to "AGI is here".
 
 Current transformer-based models such as GPT and Claude are already extremely strong tools.
 
@@ -114,9 +112,7 @@ That kind of conceptual creation still feels different to me.
 
 Maybe future systems will do it.
 
-Maybe sufficiently advanced transformer systems already contain more of that capability than I realise.
-
-Or maybe we will eventually need something architecturally different.
+Maybe sufficiently advanced transformer systems already contain more of that capability than I realise. Or maybe we will eventually need something architecturally different.
 
 I honestly do not know.
 
@@ -163,15 +159,13 @@ Thinking about AI solving mathematics naturally brought me back to a problem tha
 
 The basic distinction is beautiful.
 
-Very roughly, \(P\) contains problems that can be **solved** efficiently using a deterministic algorithm.
+Very roughly, $P$ contains problems that can be **solved** efficiently using a deterministic algorithm.
 
-\(NP\) contains problems where, if someone gives us a candidate solution, that solution can be **verified** efficiently.
+$NP$ contains problems where, if someone gives us a candidate solution, that solution can be **verified** efficiently.
 
 The famous question is:
 
-$$
-P\stackrel{?}{=}NP.
-$$
+$ P\stackrel{?}{=}NP $
 
 For example, consider 3-SAT.
 
@@ -179,12 +173,7 @@ We are given Boolean variables and clauses containing three literals.
 
 A formula might look something like:
 
-$$
-(x_1\lor \neg x_2\lor x_5)
-\land
-(\neg x_1\lor x_3\lor x_4)
-\land \cdots
-$$
+$ (x_1\lor \neg x_2\lor x_5)\land(\neg x_1\lor x_3\lor x_4)\land\cdots $
 
 If someone gives me a complete assignment of TRUE and FALSE values, checking whether every clause is satisfied is easy.
 
@@ -196,23 +185,20 @@ But finding such an assignment in the first place can be extremely difficult.
 
 That means if someone discovered a polynomial-time algorithm that always solved 3-SAT correctly, then every problem in NP could also be solved in polynomial time.
 
-One algorithm would be enough to prove
+One algorithm would be enough to prove:
 
-$$
-P=NP.
-$$
+$ P=NP $
 
 The opposite direction is much nastier.
 
 To prove
 
-$$
-P\neq NP,
-$$
+$ P\neq NP $
 
 it is not enough to invent ten thousand clever polynomial-time SAT algorithms and show that all ten thousand eventually fail.
 
 You somehow need to prove that **no possible polynomial-time algorithm** can solve the problem.
+
 
 That universal requirement is part of what makes the problem so brutal.
 
