@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "AI, Mathematics, and a Research World Moving Faster"
-category: notes
+category: maths
 tag: ai
 author_profile: false
+use_math: true
 sidebar:
     nav: "counts"
 ---
